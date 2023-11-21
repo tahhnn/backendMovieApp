@@ -14,14 +14,7 @@ import { connect } from "./config/connect.js";
 export const __filename = fileURLToPath(import.meta.url);
 export const __dirname = dirname(__filename);
 import dotenv from "dotenv";
-// app.get('/', (req, res) => {
-//     res.send('Home')
-// })
-// app.get('/products', (req, res) => {
-//     res.send('Products')
-// })
-// const bodyParser = require("body-parser");
-// const { default: moviesRouter } = require("./route/movies");
+
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
