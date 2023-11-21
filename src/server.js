@@ -1,8 +1,3 @@
-// const express = require("express");
-// const http = require("http");
-// const app = express();
-// const fs = require("fs");
-
 import express from "express";
 import bodyParser from "body-parser";
 import path from "path";
